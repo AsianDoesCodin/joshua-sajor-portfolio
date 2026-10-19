@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+.env*
+
+# Raw photos and image sources; the site serves the processed WebP files in site/img
+src-assets/
+
+# Screenshots of the old single-page version and working files
+screenshots/desktop-*
+screenshots/phone-*
+screenshots/logo-options.png
+
+# Superseded local experiment
+scripts/cutout2.mjs

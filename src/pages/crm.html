@@ -1,0 +1,81 @@
+  <nav class="crumb wrap" aria-label="Breadcrumb"><a href="/#work"><span aria-hidden="true">←</span> All work</a><span>Case 01 of 05</span></nav>
+
+  <!-- ============================== CASE 01 · CRM ============================== -->
+  <section class="case case-crm" id="crm" aria-labelledby="crm-title">
+    <div class="wrap">
+      <header class="case-head reveal">
+        <p class="case-meta"><span class="case-n">01</span><span>Production software</span><span>In daily use</span><span>2026</span></p>
+        <h1 class="case-title" id="crm-title">Blue Lotus <em>CRM</em></h1>
+        <p class="case-sum">The private sales platform my studio runs on: a realtime pipeline, team chat, shift-aware access, a website scanner that writes the call notes, and an API that lets AI agents work deals with the same permissions as staff.</p>
+      </header>
+
+      <div class="screens reveal" data-tabs>
+        <div class="tablist" role="tablist" aria-label="CRM screens">
+          <button role="tab" id="t-overview" aria-controls="p-overview" aria-selected="true">Overview</button>
+          <button role="tab" id="t-pipeline" aria-controls="p-pipeline" aria-selected="false" tabindex="-1">Pipeline</button>
+          <button role="tab" id="t-deal" aria-controls="p-deal" aria-selected="false" tabindex="-1">Deal</button>
+          <button role="tab" id="t-scanner" aria-controls="p-scanner" aria-selected="false" tabindex="-1">Site scanner</button>
+          <button role="tab" id="t-calendar" aria-controls="p-calendar" aria-selected="false" tabindex="-1">Calendar</button>
+          <button role="tab" id="t-team" aria-controls="p-team" aria-selected="false" tabindex="-1">Team &amp; hours</button>
+          <button role="tab" id="t-messenger" aria-controls="p-messenger" aria-selected="false" tabindex="-1">Messenger</button>
+        </div>
+        <div class="screens-stage">
+          <div class="browser">
+            <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>crm.bluelotuscoding.com</span></div>
+            <div class="browser-view">
+              <div class="panel" role="tabpanel" id="p-overview" aria-labelledby="t-overview"><img src="/img/work/crm-overview.webp" srcset="/img/work/crm-overview-800.webp 800w, /img/work/crm-overview.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="CRM overview: open pipeline value, active and hot leads, upcoming calls and pipeline health by stage" loading="lazy" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-pipeline" aria-labelledby="t-pipeline" hidden><img data-src="/img/work/crm-pipeline.webp" data-srcset="/img/work/crm-pipeline-800.webp 800w, /img/work/crm-pipeline.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="Pipeline stage as cards: numbered opportunities with company, value, tags, next action and who claimed them" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-deal" aria-labelledby="t-deal" hidden><img data-src="/img/work/crm-deal.webp" data-srcset="/img/work/crm-deal-800.webp 800w, /img/work/crm-deal.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="A single opportunity with schedule, tracking, claim and scan actions, contact details and the activity timeline" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-scanner" aria-labelledby="t-scanner" hidden><img data-src="/img/work/crm-scanner.webp" data-srcset="/img/work/crm-scanner-800.webp 800w, /img/work/crm-scanner.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="Site scanner report with a call opener, ranked site problems and the best pitches for the call" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-calendar" aria-labelledby="t-calendar" hidden><img data-src="/img/work/crm-calendar.webp" data-srcset="/img/work/crm-calendar-800.webp 800w, /img/work/crm-calendar.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="Shared calendar with scheduled calls in the viewer's time zone and today's agenda" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-team" aria-labelledby="t-team" hidden><img data-src="/img/work/crm-team.webp" data-srcset="/img/work/crm-team-800.webp 800w, /img/work/crm-team.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="Team page listing members with their shift hours, time zones, permissions and account creation" decoding="async"></div>
+              <div class="panel" role="tabpanel" id="p-messenger" aria-labelledby="t-messenger" hidden><img data-src="/img/work/crm-messenger.webp" data-srcset="/img/work/crm-messenger-800.webp 800w, /img/work/crm-messenger.webp 1600w" sizes="(max-width: 1100px) 94vw, 1000px" width="1600" height="1000" alt="Team chat with direct messages and @mentions" decoding="async"></div>
+            </div>
+          </div>
+          <div class="phone phone-crm"><img src="/img/work/crm-mobile.webp" width="480" height="1039" alt="The CRM overview on a phone" loading="lazy" decoding="async"></div>
+        </div>
+        <p class="screens-note"><i aria-hidden="true"></i>Sample data. Every person, company and number on these screens is fictional.</p>
+      </div>
+
+      <div class="psr">
+        <article class="reveal"><h3><span>01</span>Problem</h3><p>A small sales team working hundreds of cold leads needs one source of truth: who owns each deal, what happens next, and who is allowed to change what, and when. Off-the-shelf CRMs were generic, priced per seat and blind to how the studio actually sells.</p></article>
+        <article class="reveal"><h3><span>02</span>Solution</h3><p>I designed and built a private CRM from the database up. Numbered opportunities move through seven stages with claims, tags, @mentions and a shared calendar. Row Level Security enforces eleven per-member permissions, shift rules lock the workspace outside clocked-in hours, and a Lighthouse-powered scanner turns any prospect's website into problems, pitches and an opener.</p></article>
+        <article class="reveal"><h3><span>03</span>Result</h3><p>The team works one live pipeline of 1,300+ opportunities. A reload paints from the local cache in about 150&nbsp;ms instead of 3.4&nbsp;s, search answers in 110&nbsp;ms instead of 390&nbsp;ms, and AI agents claim, schedule and update deals under the same rules as people.</p></article>
+      </div>
+
+      <ul class="stats">
+        <li class="reveal"><strong>0.15<small>s</small></strong><span>Reload to a full list, down from 3.4&nbsp;s</span></li>
+        <li class="reveal"><strong>110<small>ms</small></strong><span>Search across every deal, down from 390&nbsp;ms</span></li>
+        <li class="reveal"><strong>11</strong><span>Per-member permissions enforced in Postgres</span></li>
+        <li class="reveal"><strong>7</strong><span>Pipeline stages, updated live on every screen</span></li>
+      </ul>
+
+      <div class="features">
+        <article class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 12l4-3M7 16h10"/></svg>
+          <h3>Site scanner → call prep</h3>
+          <p>Runs a full Lighthouse audit in a serverless browser, detects the platform, booking, chat and SEO gaps, then writes the opener and the pitches for the call.</p>
+        </article>
+        <article class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg>
+          <h3>Clock-in and shift rules</h3>
+          <p>Managers set hours, weekdays and a time zone per member. Outside a clocked-in shift, the CRM and the agent API both turn read-only.</p>
+        </article>
+        <article class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="7" width="16" height="11" rx="3"/><path d="M12 3v4M9 12h.01M15 12h.01M9 15h6"/></svg>
+          <h3>Agent API with MCP</h3>
+          <p>A permission-aware Edge Function plus an MCP server, so Claude and other agents can find, claim, schedule and update deals like a teammate.</p>
+        </article>
+        <article class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg>
+          <h3>Realtime, and fast offline</h3>
+          <p>Supabase Realtime pushes every change to every open screen. An IndexedDB cache draws the list instantly and is wiped on sign-out.</p>
+        </article>
+      </div>
+
+      <div class="stack reveal">
+        <h3 class="eyebrow">Stack</h3>
+        <ul class="chips"><li>React 19</li><li>TypeScript</li><li>Vite</li><li>Supabase Postgres</li><li>Row Level Security</li><li>Supabase Realtime</li><li>Edge Functions</li><li>IndexedDB</li><li>MCP</li><li>Lighthouse</li><li>Puppeteer</li><li>Vercel</li></ul>
+      </div>
+    </div>
+  </section>
