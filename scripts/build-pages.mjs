@@ -24,7 +24,7 @@ const cases = {
 const pages = [
   { src: 'home', out: 'index', path: '/', key: 'home', bodyClass: 'page-home', foot: 'contact', preload: true, jsonld: true,
     title: 'Joshua Sajor · Full-stack developer',
-    description: 'Joshua Sajor is a full-stack developer and the founder of Blue Lotus Coding. He builds the websites, software and AI that small businesses run on: a production CRM, automation, AI assistants, a ten-site demo gallery and website studios for real local businesses.' },
+    description: 'Joshua Sajor is a full-stack developer at Blue Lotus Coding. He builds the websites, software and AI that small businesses run on: a production CRM, automation, AI assistants, a ten-site demo gallery and website studios for real local businesses.' },
   { src: 'crm', key: 'crm', next: 'relay',
     title: 'Blue Lotus CRM · Joshua Sajor',
     description: 'Case study: the private sales platform behind Blue Lotus Coding. Realtime pipeline, shift-aware access, a website scanner that writes call prep, and an API that lets AI agents work deals.' },
